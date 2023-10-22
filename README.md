@@ -1,17 +1,21 @@
-# Insurance Cost
+# Predicting Insurance Costs with PyCaret
+
+This repository contains a machine learning project for predicting insurance costs using PyCaret, a low-code machine learning library. PyCaret simplifies the end-to-end machine learning process, from data preparation to model deployment. The goal of this project is to estimate the cost of health insurance for individuals by leveraging PyCaret's capabilities.
 
 ## Key Feature
 
-* setup(df, target='charges'): This step involves data preprocessing, such as handling missing values and encoding categorical variables.
-* best_model = compare_models(): This line of code is used to compare various machine learning models to determine the best-performing one for the given dataset.
-* evaluate_model(best_model): This function is used to further evaluate its performance.
+In the us_medical_insurance_costs.ipynb notebook, you will find PyCaret code for:
+
+* Setting up PyCaret environment.
+* Preprocessing the data using PyCaret's automated features.
+* Building, evaluating, and comparing multiple machine learning models with minimal code.
 
 ## File Description
   
 ### us_medical_insurance_costs.ipynb:
 
-This notebook contains codes for Insurance Cost.
+This notebook contains code to build the machine learning.
 
 ### insurance.csv:
 
-This csv file contains tables for analysis.
+This csv file contains data for analysis.
